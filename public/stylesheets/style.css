@@ -1,0 +1,38 @@
+body {
+    background-color: #FFF !important;
+    color: #212121;
+}
+h5 {
+    font-weight: 500 !important;
+}
+#sub-hello {
+    color: #607D8B !important;
+}
+nav.navbar, a {
+    background-color: #FFF !important;
+    color: #212121 !important;
+}
+#hello {
+    height: 100vh;
+}
+#about, #portfolio {
+    background-color: #90A4AE;
+    color: #FFF;
+}
+#about, #skills, #portfolio {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    min-height: 400px;
+}
+.skill {
+    min-height: 100px !important;
+}
+.skill > p {
+    text-align: center;
+}
+.skill-col1 {
+    border-right: 1px solid #212121;
+}
+.card {
+    color: #212121 !important;
+}
