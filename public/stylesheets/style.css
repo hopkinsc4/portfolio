@@ -1,25 +1,30 @@
 body {
     background-color: #FFF !important;
     color: #212121;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h5 {
     font-weight: 500 !important;
 }
 #sub-hello {
-    color: #607D8B !important;
+    color: #1E88E5 !important;
 }
-nav.navbar, a {
+.navbar {
     background-color: #FFF !important;
-    color: #212121 !important;
+}
+.navbar a {
+    
+    color: #1A237E !important;
+    font-size: 1.2rem;
 }
 #hello {
     height: 100vh;
 }
 #about, #portfolio {
-    background-color: #90A4AE;
-    color: #FFF;
+    background-color: #E3F2FD;
+    color: #212121;
 }
-#about, #skills, #portfolio {
+#about, #skills, #portfolio, #contact {
     padding-top: 15px;
     padding-bottom: 20px;
     min-height: 400px;
@@ -30,9 +35,18 @@ nav.navbar, a {
 .skill > p {
     text-align: center;
 }
-.skill-col1 {
+.skill-col {
     border-right: 1px solid #212121;
+    border-left: 1px solid #212121;
+    
 }
 .card {
     color: #212121 !important;
+}
+.navbar-toggler, .navbar-toggler-icon {
+    color: #212121;
+}
+.menu-icon, .down-arrow {
+    color: #212121 !important;
+    font-size: 3rem !important;
 }
