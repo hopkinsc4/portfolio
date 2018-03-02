@@ -50,3 +50,11 @@ h5 {
     color: #212121 !important;
     font-size: 3rem !important;
 }
+.contact-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    font-size: 3.0rem !important;
+}
+#footer, #footer-row, #footer-col1, #footer-col2 {
+    background-color: #BBDEFB !important;
+}
