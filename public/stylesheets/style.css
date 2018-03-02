@@ -1,33 +1,54 @@
+/*
+ _______  _______  __    _  _______  ______    _______  ___          _______  _______  __   __  ___      _______  _______ 
+|       ||       ||  |  | ||       ||    _ |  |   _   ||   |        |       ||       ||  | |  ||   |    |       ||       |
+|    ___||    ___||   |_| ||    ___||   | ||  |  |_|  ||   |        |  _____||_     _||  |_|  ||   |    |    ___||  _____|
+|   | __ |   |___ |       ||   |___ |   |_||_ |       ||   |        | |_____   |   |  |       ||   |    |   |___ | |_____ 
+|   ||  ||    ___||  _    ||    ___||    __  ||       ||   |___     |_____  |  |   |  |_     _||   |___ |    ___||_____  |
+|   |_| ||   |___ | | |   ||   |___ |   |  | ||   _   ||       |     _____| |  |   |    |   |  |       ||   |___  _____| |
+|_______||_______||_|  |__||_______||___|  |_||__| |__||_______|    |_______|  |___|    |___|  |_______||_______||_______|
+
+*/
 body {
-    background-color: #FFF !important;
+    background-color: #FFF;
     color: #212121;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.1rem !important;
 }
-h5 {
-    font-weight: 500 !important;
-}
-#sub-hello {
-    color: #1E88E5 !important;
-}
-.navbar {
-    background-color: #FFF !important;
-}
-.navbar a {
-    
-    color: #1A237E !important;
-    font-size: 1.2rem;
-}
+/*
+ ___   ______       _______  _______  __   __  ___      _______  _______ 
+|   | |      |     |       ||       ||  | |  ||   |    |       ||       |
+|   | |  _    |    |  _____||_     _||  |_|  ||   |    |    ___||  _____|
+|   | | | |   |    | |_____   |   |  |       ||   |    |   |___ | |_____ 
+|   | | |_|   |    |_____  |  |   |  |_     _||   |___ |    ___||_____  |
+|   | |       |     _____| |  |   |    |   |  |       ||   |___  _____| |
+|___| |______|     |_______|  |___|    |___|  |_______||_______||_______|
+
+*/
 #hello {
     height: 100vh;
 }
-#about, #portfolio {
-    background-color: #E3F2FD;
-    color: #212121;
-}
+
 #about, #skills, #portfolio, #contact {
     padding-top: 15px;
     padding-bottom: 20px;
     min-height: 400px;
+}
+/*
+ _______  ___      _______  _______  _______      _______  _______  __   __  ___      _______  _______ 
+|       ||   |    |   _   ||       ||       |    |       ||       ||  | |  ||   |    |       ||       |
+|    __/ |   |    |  |_|  ||  _____||  _____|    |  _____||_     _||  |_|  ||   |    |    ___||  _____|
+|   /    |   |    |       || |_____ | |_____     | |_____   |   |  |       ||   |    |   |___ | |_____ 
+|   \__  |   |___ |       ||_____  ||_____  |    |_____  |  |   |  |_     _||   |___ |    ___||_____  |
+|      \ |       ||   _   | _____| | _____| |     _____| |  |   |    |   |  |       ||   |___  _____| |
+|_______||_______||__| |__||_______||_______|    |_______|  |___|    |___|  |_______||_______||_______|
+
+*/
+.navbar {
+    background-color: #FFF !important;
+}
+.nav-link {
+    letter-spacing: 0.3rem !important;
 }
 .skill {
     min-height: 100px !important;
@@ -42,19 +63,179 @@ h5 {
 }
 .card {
     color: #212121 !important;
+    overflow: hidden !important;
+    max-height: 485px;
+}
+.card-header {
+    padding: 0px !important;
+}
+.card-title, a {
+    text-decoration: none !important;
+}
+.project-badges {
+    margin-bottom: 0.2rem !important;
+    margin-top: 0.2rem !important;
+}
+.badge {
+    font-size: 50% !important;
+}
+.img-thumbnail {
+    max-width: 100% !important;
 }
 .navbar-toggler, .navbar-toggler-icon {
     color: #212121;
 }
 .menu-icon, .down-arrow {
     color: #212121 !important;
-    font-size: 3rem !important;
+    font-size: 3.5rem !important;
 }
 .contact-link {
     text-decoration: none !important;
     color: inherit !important;
     font-size: 3.0rem !important;
 }
-#footer, #footer-row, #footer-col1, #footer-col2 {
-    background-color: #BBDEFB !important;
+.skls-cont p {
+    font-size: 1.3rem;
 }
+.display-5 {
+    font-size: 3.0rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/*
+  __   __  ___   _______  _______      _______  _______  __   __  ___      _______  _______ 
+|  |_|  ||   | |       ||       |    |       ||       ||  | |  ||   |    |       ||       |
+|       ||   | |  _____||       |    |  _____||_     _||  |_|  ||   |    |    ___||  _____|
+|       ||   | | |_____ |       |    | |_____   |   |  |       ||   |    |   |___ | |_____ 
+|       ||   | |_____  ||      _|    |_____  |  |   |  |_     _||   |___ |    ___||_____  |
+| ||_|| ||   |  _____| ||     |_      _____| |  |   |    |   |  |       ||   |___  _____| |
+|_|   |_||___| |_______||_______|    |_______|  |___|    |___|  |_______||_______||_______|
+
+*/
+.lt-txt {
+    color: #FAFAFA !important;
+}
+.dk-txt {
+    color: #212121 !important;
+}
+
+
+/* Node */
+.bg-node {
+    background-color: #33691E !important;
+}
+/* Express */
+.bg-express {
+    color: #272727;
+    background-color: #eee;
+}
+/* Handlebars */
+.bg-hbs {
+    background-color: #f15a24;
+}
+/* Socket.io */
+.bg-socketio {
+    background-color: #7E57C2;
+}
+/* ReactJS */
+.bg-react {
+    background-color: #20232a;
+    color: #61dafb;
+}
+/* Meteor */
+.bg-meteor {
+    background-color: #de4f4f;
+}
+/* RxJS */
+.bg-rxjs {
+    color: B7178C;
+    background-color: #333;
+}
+/* Material-UI */
+.bg-materialui {
+    background-color: rgb(0, 188, 212);
+}
+/* MongoDB */
+.bg-mongodb {
+    background-color: #00C853 !important;
+}
+/* PostgreSQL */
+.bg-postgres {
+    background-color: #0085B0;
+}
+/* Mongoose */
+.bg-mongoose {
+    background-color: #800;
+}
+/* Sequelize */
+.bg-sequelize {
+    background-color: #399af3;
+}
+/* Redis */
+.bg-redis {
+    background-color: #d50000;
+}
+/* NeDB */
+.bg-nedb {
+    background-color: #1B5E20;
+    color: #E8F5E9;
+}
+/* Bootstrap */
+.bg-bootstrap {
+    background-color: #563d7c;
+}
+/* LinkedIn */
+.bg-linkedin {
+    color: #0077B5;
+}
+.bg-gmail {
+    background-color: #dd5347;
+}
+.bg-github {
+    color: #24292e;
+}
+/*
+ _______  _______  ___      _______  ______    _______ 
+|       ||       ||   |    |       ||    _ |  |       |
+|       ||   _   ||   |    |   _   ||   | ||  |  _____|
+|       ||  | |  ||   |    |  | |  ||   |_||_ | |_____ 
+|      _||  |_|  ||   |___ |  |_|  ||    __  ||_____  |
+|     |_ |       ||       ||       ||   |  | | _____| |
+|_______||_______||_______||_______||___|  |_||_______|
+
+*/
+.text-darky { color: #212121 !important; }
+.text-litey { color: #FFF !important; }
+.text-blugre-l1 { color: #D0E7DD !important; }
+.text-blugre-m1 { color: #A0CCB8 !important; }
+.text-blugre-m2 { color: #479170 !important; }
+.text-blugre-d1 { color: #23724E !important; }
+.text-blugray-l1 { color: #7A97AB !important; }
+.text-blugray-m1 { color: #4F748E !important; }
+.text-blugray-m2 { color: #163C57 !important; }
+.text-blugray-d1 { color: #05253B !important; }
+.text-gray-l { color: #DEDEDE !important; }
+.text-gray-m { color: #979797 !important; }
+.text-gray-d { color: #9F9F9F !important; }
+.text-gre-l1 { color: #C1E6A0 !important; }
+.text-gre-m1 { color: #94C569 !important; }
+.text-gre-m2 { color: #467A18 !important; }
+.text-gre-d1 { color: #285302 !important; }
+
+.wall-darky { background-color: #212121 !important; }
+.wall-litey { background-color: #FFF !important; }
+.wall-blugre-l1 { background-color: #D0E7DD !important; }
+.wall-blugre-m1 { background-color: #A0CCB8 !important; }
+.wall-blugre-m2 { background-color: #479170 !important; }
+.wall-blugre-d1 { background-color: #23724E !important; }
+.wall-blugray-l1 { background-color: #CEDBE4 !important; }
+.wall-blugray-m1 { background-color: #9DB4C4 !important; }
+.wall-blugray-m2 { background-color: #476C87 !important; }
+.wall-blugray-d1 { background-color: #254D6A !important; }
+.wall-gray-l { background-color: #DEDEDE !important; }
+.wall-gray-m { background-color: #979797 !important; }
+.wall-gray-d { background-color: #9F9F9F !important; }
+.wall-gre-l1 { background-color: #C1E6A0 !important; }
+.wall-gre-m1 { background-color: #94C569 !important; }
+.wall-gre-m2 { background-color: #467A18 !important; }
+.wall-gre-d1 { background-color: #285302 !important; }
